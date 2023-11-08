@@ -14,7 +14,6 @@ namespace Boksystem
             books.Add(new EBok("Dune", "Alf", 12345678, 650, "test.com"));
 
 
-
         }
     }
 }
