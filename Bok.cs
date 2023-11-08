@@ -16,12 +16,11 @@
         }
 
         public override void SpelaUpp()
-        {
-                       
+        {                       
         }
         public override void PausaBoken()
         {
-            Console.WriteLine("nu är boken pausat");
+            Console.WriteLine("Boken har pausat.");
         }
         public void LånaUt()
         {

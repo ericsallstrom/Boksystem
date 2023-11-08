@@ -12,19 +12,16 @@
             DownloadUrl = downloadUrl;
         }
 
-        
         public override void SpelaUpp()
         {            
         }
         public override void PausaBoken()
         {
-            Console.WriteLine("Nu är boken pausat");
+            Console.WriteLine("Uppspelningen av boken har nu pausat.");
         }
-
         public override void SkrivUtInfo()
         {
             Console.WriteLine($"Titel: {Titel}, Författare: {Författare}, ISBN: {ISBN}, Filstorlek: {Filstorlek}, URL-kod: {DownloadUrl}");
-
         }
     }
 }
