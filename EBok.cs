@@ -21,9 +21,9 @@
             Console.WriteLine("Nu är boken pausat");
         }
 
-        public override void SkrivUtinfo()
+        public override void SkrivUtInfo()
         {
-            Console.WriteLine($"Titel: {Titel}, Författare: {Författare}, ISBN: {ISBN}, Filstorlek: {Filstorlek}, DownloadUrl: {DownloadUrl}");
+            Console.WriteLine($"Titel: {Titel}, Författare: {Författare}, ISBN: {ISBN}, Filstorlek: {Filstorlek}, URL-kod: {DownloadUrl}");
 
         }
     }

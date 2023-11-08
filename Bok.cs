@@ -31,7 +31,7 @@
         {
             Utlånad = false;
         }
-        public virtual void SkrivUtinfo()
+        public virtual void SkrivUtInfo()
         {
         }      
     }
