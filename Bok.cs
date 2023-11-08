@@ -32,6 +32,7 @@
         }
         public virtual void SkrivUtInfo()
         {
+            Console.WriteLine($"Titel: {Titel}, Författare: {Författare}, ISBN: {ISBN}");
         }      
     }
 }
