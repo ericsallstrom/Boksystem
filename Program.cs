@@ -16,7 +16,10 @@ namespace Boksystem
             books.Add(new Bok("Dune", "Alf", 12345678));
             books.Add(new EBok("Dune", "Alf", 12345678, 650, "test.com"));
 
-            Console.WriteLine("Test/Olov");
+            foreach(Bok bok in books)
+            {
+                bok.SkrivUtInfo();
+            }
         }
     }
 }
