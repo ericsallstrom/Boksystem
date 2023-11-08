@@ -16,8 +16,7 @@
         }
 
         public override void SpelaUpp()
-        {
-                       
+        {                       
         }
         public override void PausaBoken()
         {
