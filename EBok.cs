@@ -12,14 +12,19 @@
             DownloadUrl = downloadUrl;
         }
 
-        public override void SkrivUtinfo()
-        {
-        }
+        
         public override void SpelaUpp()
         {            
         }
-        public override void VisaInfo()
-        {            
+        public override void PausaBoken()
+        {
+            Console.WriteLine("Nu är boken pausat");
+        }
+
+        public override void SkrivUtinfo()
+        {
+            Console.WriteLine($"Titel: {Titel}, Författare: {Författare}, ISBN: {ISBN}, Filstorlek: {Filstorlek}, DownloadUrl: {DownloadUrl}");
+
         }
     }
 }

@@ -16,10 +16,12 @@
         }
 
         public override void SpelaUpp()
-        {            
+        {
+                       
         }
-        public override void VisaInfo()
-        {            
+        public override void PausaBoken()
+        {
+            Console.WriteLine("nu är boken pausat");
         }
         public void LånaUt()
         {
