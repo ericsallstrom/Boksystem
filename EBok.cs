@@ -22,7 +22,6 @@
         public override void SkrivUtInfo()
         {
             Console.WriteLine($"Titel: {Titel}, Författare: {Författare}, ISBN: {ISBN}, Filstorlek: {Filstorlek}, URL-kod: {DownloadUrl}");
-
         }
     }
 }
